@@ -6,18 +6,22 @@
     <title>SITE GES</title>
     <style>
         body{
-            font-family: Arial, Hev
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(to right , rgb(20 ,147 ,220 ), rgb(17, 54, 71)) ;
+            text-align: center;
+            color: #000;
 
-             parei 4:44
+            /* parei 4:44 */
         }
 
 
     </style>
 </head>
 <body>
-    <h1>Se invreva No Canal</h1>
+    <h1>Se inscreva No Canal</h1>
     <div class="box">
         <a href="">Login</a>
         <a href="">Cadastre-se</a>
+    </div>
 </body>
 </html>
