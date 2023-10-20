@@ -9,9 +9,9 @@
             font-family: Arial, Helvetica, sans-serif;
             background: linear-gradient(to right , rgb(20 ,147 ,220 ), rgb(17, 54, 71)) ;
             text-align: center;
-            color: #000;
+            color: white;
 
-            /* parei 4:44 */
+        
         }
         .box{
             position: absolute;
@@ -26,11 +26,12 @@
             text-decoration: none;
             color: white;
             border: 3px solid dodgerblue;
-            border-radius: 15px;
-            padding: 5px;
+            border-radius: 10px;
+            padding: 10px;
 
-parei aqui 8:05
-
+        }
+        a:hover{
+            background-color: dodgerblue;
         }
 
     </style>
@@ -38,8 +39,8 @@ parei aqui 8:05
 <body>
     <h1>Se inscreva No Canal</h1>
     <div class="box">
-        <a href="">Login</a>
-        <a href="">Cadastre-se</a>
+        <a href="login.php">Login</a>
+        <a href="formulario.php">Cadastre-se</a>
     </div>
 </body>
 </html>

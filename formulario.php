@@ -102,6 +102,7 @@ if(isset($_POST['submit']))
     </style>
 </head>
 <body>
+    <a href="home.php">Voltar</a>
     <div class="box">
         <form action="formulario.php" method=POST>
             <fieldset>
@@ -112,6 +113,12 @@ if(isset($_POST['submit']))
                     <label for="nome" class="labelInput">Nome completo</label>
                 </div>
                 <br><br>
+                <div class="inputBox">
+                    <input type="password" name="senha" id="senha" class="inputUser" required>
+                    <label for="senha" class="labelInput">Senha</label>
+                </div>
+                <br><br>
+
                 <div class="inputBox">
                     <input type="text" name="email" id="email" class="inputUser" required>
                     <label for="email" class="labelInput">Email</label>
