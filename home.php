@@ -13,7 +13,25 @@
 
             /* parei 4:44 */
         }
+        .box{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50% , -50%);
+            background-color: rgb(0, 0, 0, 0.6);
+            padding: 30px;
+            border-radius: 15px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            border: 3px solid dodgerblue;
+            border-radius: 15px;
+            padding: 5px;
 
+parei aqui 8:05
+
+        }
 
     </style>
 </head>
