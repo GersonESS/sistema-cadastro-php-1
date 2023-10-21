@@ -48,10 +48,10 @@
     <a href="home.php">Voltar</a>
     <div>
         <h1>Login</h1>
-        <form action="" method="POST">
+        <form action="testlogin.php" method="POST">
             <input type="text" name="email" placeholder="Email">
             <br><br>
-            <input type="password" nome="senha" placeholder="Senha">
+            <input type="password" name="senha" placeholder="Senha">
             <br><br>
             <input class="inputSubmit" type="submit" name="submit" value="Enviar">
         </form>
