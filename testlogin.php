@@ -20,9 +20,17 @@
 
     $result = $conexao->query($sql);
 
-     print_r($sql);
-     print_r($result);
-parei aqui 21:54
+     //print_r($sql);
+     //print_r($result);
+     if(mysqli_num_rows($result) < 1)
+        {
+         print_r("não existe");
+         
+        }
+        else
+        {
+         print_r("existe");
+        }
 
    }
    else
